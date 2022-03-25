@@ -21,3 +21,15 @@ a menilo barvu z cervene na zelenou a zpet.
       Pokud se ani nevypisuje, je nejaka chyba uz v jejim volani, v eventListeneru nebo je treba
       spatne vybrany html element...
 */
+
+// ad 1
+
+let switcher = document.querySelector('.switch');
+
+function changeLightColor() {
+  console.log('blik');
+  let light = document.querySelector('.light');
+  light.classList.toggle('green');
+}
+
+switcher.addEventListener('click', changeLightColor);

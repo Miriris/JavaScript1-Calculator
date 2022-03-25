@@ -1,9 +1,19 @@
-html { box-sizing: border-box; }
-*, ::before, :after { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::before,
+:after {
+  box-sizing: inherit;
+}
 
 .light {
-    width: 20px;
-    height: 20px;
-    border: 1px solid black;
-    background-color: red;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  background-color: red;
+}
+
+.green {
+  background-color: green;
 }
